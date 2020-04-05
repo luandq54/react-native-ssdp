@@ -1,12 +1,6 @@
 # SSDP fork for React Native from node
 
-This is a fork of `node-ssdp` that uses `react-native-udp` instead of `dgram` to enable react multicast messaging and plain socket control. The API is the same as in the forked version.
-
-<a href="https://getyeti.co" target="_blank">
-   <img alt="works with yeti" src="https://github.com/netbeast/react-native-dial/raw/master/works-with-yeti.png" width="100" />
-</a>
-
-> This package powers [Yeti Smart Home](https://getyeti.co) and is used in production. It is maintained with our developers's free time, PRs and issues are more than welcome.
+This is a fork of https://github.com/netbeast/react-native-ssdp, fixed issue null socket on listener
 
 ## Installation
 
